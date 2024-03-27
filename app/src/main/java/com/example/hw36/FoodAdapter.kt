@@ -1,12 +1,10 @@
-package com.example.hw33
+package com.example.hw36
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hw36.Food
-import com.example.hw36.R
 
 class FoodAdapter(private val foodList: List<Food>) :
     RecyclerView.Adapter<FoodAdapter.FoodViewHolder>() {

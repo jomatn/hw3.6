@@ -3,7 +3,6 @@ package com.example.hw36
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.hw33.FoodAdapter
 import com.example.hw36.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +16,10 @@ class MainActivity : AppCompatActivity() {
         val foodList = listOf(
             Food( "Pasta", "pasta is italian food"),
             Food( "Sushi", "sushi is japan food"),
-            Food("Kuurdak", "kuurdak is kyrgyz food")
+            Food("Kuurdak", "kuurdak is kyrgyz food"),
+            Food("Burger", "Burger is american food"),
+            Food("cheesburger", "cheesburger is american food"),
+            Food("Macaron", "Macaron is france food")
         )
 
         val adapter = FoodAdapter(foodList)
